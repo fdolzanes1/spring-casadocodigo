@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @EnableWebMvc
-@ComponentScan(basePackageClasses= {HomeController.class, ProdutoDAO.class})
+@ComponentScan("org.spring.casadocodigo")
 public class AppWebConfiguration {
 	
 	@Bean
